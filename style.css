@@ -15,9 +15,9 @@ p{
     color:orange;
 }
 .half-width{
-    width: 40%;
+    width: 42%;
     float: left;
-    margin-left: 5%;
+    margin-left: 4%;
     padding-left: 2%;
 }
 .half-width img{
@@ -55,5 +55,20 @@ section{
 }
 .single-experience{
     box-shadow:10px 10px 40px gray;
-    height: 70%;
+    height: 80%;
+    background-color: white;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, salmon ,orange);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
